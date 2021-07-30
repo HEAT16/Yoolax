@@ -15,7 +15,7 @@ import groovy.json.JsonOutput
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-	definition(name: "ORVIBO/Yooksmart/Yoolax Zigbee Window Shades", namespace: "avianwaves", author: "AvianWaves", ocfDeviceType: "oic.d.blind", mnmn: "SmartThings", vid: "generic-shade-3") {
+	definition(name: "Yoolax Zigbee Window Shades", namespace: "heat16", author: "AvianWaves", ocfDeviceType: "oic.d.blind", mnmn: "SmartThings", vid: "generic-shade-3") {
 		capability "Actuator"
 		capability "Battery"
 		capability "Configuration"
